@@ -473,7 +473,7 @@ var createVApp = function createVApp(count) {
     }, function () {
       return (0, _createElement.default)('img', {
         attrs: {
-          src: 'https://picsum.photos/50'
+          src: 'https://picsum.photos/200'
         }
       });
     })))
@@ -488,7 +488,7 @@ setInterval(function () {
   var vNewApp = createVApp(parseInt(Math.random() * 10));
   var patch = (0, _diff.default)(vApp, vNewApp);
   $rootEl = patch($rootEl);
-  vApp = vNewApp; //document.getElementById('app').innerHTML = d.toLocaleTimeString();
+  vApp = vNewApp;
 }, 1000);
 },{"./vdom/createElement":"vdom/createElement.js","./vdom/render":"vdom/render.js","./vdom/mount":"vdom/mount.js","./vdom/diff":"vdom/diff.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -518,7 +518,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58711" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60628" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

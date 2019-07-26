@@ -24,7 +24,7 @@ const createVApp = (count) => createElement('div', {
         ...Array.from ({ length: count}, () =>
         createElement('img',{
             attrs:{
-            src: 'https://picsum.photos/100',
+            src: 'https://picsum.photos/200',
             }
         })),
     ]
