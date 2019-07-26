@@ -1,7 +1,7 @@
 {
   "name": "vdomm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jason Yu code along: https://www.youtube.com/watch?v=85gJMUEcnkc",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
